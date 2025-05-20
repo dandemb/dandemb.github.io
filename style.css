@@ -1,0 +1,373 @@
+.porfolio-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 70px;
+    position: relative;
+    background-color: var(--alias-theme-theme-backdrop);
+}
+
+.porfolio-home .home-foreground {
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--alias-theme-theme-background);
+    border-radius: var(--radius-3-duplicate);
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--alias-theme-theme-stroke);
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.porfolio-home .header {
+    display: flex;
+    height: 111px;
+    align-items: center;
+    padding: 0px 0px 0px 599px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: transparent;
+    gap: var(--spacing-scale-0);
+}
+
+.porfolio-home .main-page {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+    gap: var(--spacing-scale-0);
+}
+
+.porfolio-home .tab {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-color: var(--alias-primary-background);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-scale-5) var(--spacing-scale-7) var(--spacing-scale-5)
+        var(--spacing-scale-7);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.porfolio-home .hello {
+    margin-top: -3.00px;
+    color: var(--alias-theme-heading-foreground);
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-md-font-family);
+    font-weight: var(--body-md-font-weight);
+    font-size: var(--body-md-font-size);
+    letter-spacing: var(--body-md-letter-spacing);
+    line-height: var(--body-md-line-height);
+    white-space: nowrap;
+    font-style: var(--body-md-font-style);
+}
+
+.porfolio-home .tab-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+    gap: var(--spacing-scale-0);
+}
+
+.porfolio-home .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-scale-5) var(--spacing-scale-7) var(--spacing-scale-5)
+        var(--spacing-scale-7);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.porfolio-home .text-wrapper {
+    margin-top: -1.00px;
+    color: var(--alias-theme-foreground);
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-md-font-family);
+    font-weight: var(--body-md-font-weight);
+    font-size: var(--body-md-font-size);
+    letter-spacing: var(--body-md-letter-spacing);
+    line-height: var(--body-md-line-height);
+    white-space: nowrap;
+    font-style: var(--body-md-font-style);
+}
+
+.porfolio-home .home-content {
+    height: 816px;
+    gap: 146px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.porfolio-home .background-blurs {
+    position: absolute;
+    width: 1128px;
+    height: 927px;
+    top: -98px;
+    left: 446px;
+}
+
+.porfolio-home .about-container {
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    height: 86px;
+    align-items: flex-start;
+    gap: 75px;
+    position: relative;
+}
+
+.porfolio-home .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-scale-2);
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -106.00px;
+    position: relative;
+    align-self: stretch;
+}
+
+.porfolio-home .div {
+    margin-top: -1.00px;
+    font-family: var(--body-lg-font-family);
+    font-weight: var(--body-lg-font-weight);
+    color: var(--alias-theme-foreground);
+    font-size: var(--body-lg-font-size);
+    letter-spacing: var(--body-lg-letter-spacing);
+    line-height: var(--body-lg-line-height);
+    position: relative;
+    align-self: stretch;
+    font-style: var(--body-lg-font-style);
+}
+
+.porfolio-home .name {
+    display: flex;
+    flex-direction: column;
+    width: 637px;
+    height: 161px;
+    align-items: flex-start;
+    gap: var(--spacing-scale-3);
+    position: relative;
+    margin-right: -278.00px;
+}
+
+.porfolio-home .name-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--heading-h1-font-family);
+    font-weight: var(--heading-h1-font-weight);
+    color: var(--alias-theme-heading-foreground);
+    font-size: var(--heading-h1-font-size);
+    letter-spacing: var(--heading-h1-letter-spacing);
+    line-height: var(--heading-h1-line-height);
+    font-style: var(--heading-h1-font-style);
+}
+
+.porfolio-home .job-title {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--heading-h4-font-family);
+    font-weight: var(--heading-h4-font-weight);
+    color: var(--color-scheme-primitive-indigo-500);
+    font-size: var(--heading-h4-font-size);
+    letter-spacing: var(--heading-h4-letter-spacing);
+    line-height: var(--heading-h4-line-height);
+    font-style: var(--heading-h4-font-style);
+}
+
+.porfolio-home .link-container {
+    display: flex;
+    flex-direction: column;
+    width: 695px;
+    height: 172px;
+    align-items: flex-start;
+    gap: var(--spacing-scale-3);
+    position: relative;
+    margin-bottom: -353.00px;
+    margin-right: -336.00px;
+}
+
+.porfolio-home .complete-game {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--body-md-font-family);
+    font-weight: var(--body-md-font-weight);
+    color: var(--alias-theme-foreground);
+    font-size: var(--body-md-font-size);
+    letter-spacing: var(--body-md-letter-spacing);
+    line-height: var(--body-md-line-height);
+    font-style: var(--body-md-font-style);
+}
+
+.porfolio-home .more-about {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-md-font-family);
+    font-weight: var(--body-md-font-weight);
+    color: var(--alias-theme-foreground);
+    font-size: var(--body-md-font-size);
+    letter-spacing: var(--body-md-letter-spacing);
+    line-height: var(--body-md-line-height);
+    font-style: var(--body-md-font-style);
+}
+
+.porfolio-home .more-about-2 {
+    position: relative;
+    align-self: stretch;
+    background-blend-mode: hard-light;
+    background: linear-gradient(
+        90deg,
+        rgba(85, 149, 239, 1) 0%,
+        rgba(49, 85, 137, 1) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Fira Code-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.porfolio-home .footer-desktop {
+    display: flex;
+    height: 1px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+}
+
+.porfolio-home .social-media {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -27.50px;
+    margin-bottom: -27.50px;
+}
+
+.porfolio-home .find-me-in {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: var(--spacing-scale-5) var(--spacing-scale-6) var(--spacing-scale-5)
+        var(--spacing-scale-6);
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+}
+
+.porfolio-home .sociel-media-icons-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: var(--spacing-scale-5);
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+}
+
+.porfolio-home .sociel-media-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/icon-x.svg);
+    background-size: 100% 100%;
+}
+
+.porfolio-home .sociel-media-icons-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/icon-linkedin.svg);
+    background-size: 100% 100%;
+}
+
+.porfolio-home .menu-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -27.50px;
+    margin-bottom: -27.50px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-color: var(--alias-theme-theme-stroke);
+    gap: var(--spacing-scale-0);
+}
+
+.porfolio-home .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-scale-3);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.porfolio-home .hello-2 {
+    margin-top: -2.00px;
+    margin-left: -1.00px;
+    -webkit-text-stroke: 1px #000000;
+    color: var(--alias-theme-foreground);
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-md-font-family);
+    font-weight: var(--body-md-font-weight);
+    font-size: var(--body-md-font-size);
+    letter-spacing: var(--body-md-letter-spacing);
+    line-height: var(--body-md-line-height);
+    white-space: nowrap;
+    font-style: var(--body-md-font-style);
+}
+
+.porfolio-home .icon-git {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
