@@ -1,0 +1,68 @@
+
+/* =========================================
+   1. COLOR PALETTE
+   ========================================= */
+
+:root {
+
+    /* Main backgrounds */
+    --color-background: #080d1a;
+    --color-surface: #111827;
+    --color-surface-light: #1e293b;
+
+    /* Borders */
+    --color-border: #334155;
+
+    /* Text */
+    --color-text: #f1f5f9;
+    --color-text-secondary: #94a3b8;
+
+    /* Accent colors */
+    --color-accent: #ffb86a;
+    --color-accent-hover: #ffc98f;
+    --color-success: #4ade80;
+
+
+    /* =========================================
+       2. TYPOGRAPHY
+       ========================================= */
+
+    --font-main: "Fira Code", monospace;
+
+    --font-size-small: 12px;
+    --font-size-normal: 16px;
+    --font-size-medium: 20px;
+    --font-size-large: 32px;
+    --font-size-title: 48px;
+
+
+    /* =========================================
+       3. SPACING
+       ========================================= */
+
+    --spacing-xs: 4px;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --spacing-xl: 48px;
+    --spacing-xxl: 64px;
+
+
+    /* =========================================
+       4. BORDERS AND SHAPES
+       ========================================= */
+
+    --radius-small: 4px;
+    --radius-medium: 8px;
+    --radius-large: 16px;
+
+    --border-default: 1px solid var(--color-border);
+
+
+    /* =========================================
+       5. ANIMATIONS
+       ========================================= */
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

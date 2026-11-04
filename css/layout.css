@@ -1,0 +1,100 @@
+
+/* =========================================
+   1. GLOBAL RESET
+   ========================================= */
+
+/* We use the same calculation for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Delete default margins of the navigator */
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+/* General settings of the page. Used the predefined variables.
+   Can be changed through the variables.css file */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-main);
+    min-height: 100vh;
+}
+
+
+/* =========================================
+   2. MAIN APPLICATION CONTAINER (from index.html, line id="app")
+   ========================================= */
+
+#app {
+    min-height: 100vh;
+
+    /* Organisation - - - (vertical): header, main, footer */
+    display: flex;
+    flex-direction: column;
+
+    /* Spaces around the application */
+    padding: var(--spacing-large);
+}
+
+
+/* =========================================
+   3. HEADER (from index.html, line id="site-header")
+   ========================================= */
+
+#site-header {
+    display: flex;
+
+    /* Logo on the left, navigation bar on the right */
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--spacing-medium);
+
+    border-bottom: var(--border-default);
+}
+
+
+/* =========================================
+   4. MAIN CONTENT (from index.html, line id="main-content")
+   ========================================= */
+
+#main-content {
+    /* Take up the available space between header and footer */
+    flex: 1;
+
+    padding: var(--spacing-xl) var(--spacing-large);
+
+    /* Avoid the content from becoming too wide */
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   5. FOOTER (from index.html, line id="site-footer")
+   ========================================= */
+
+#site-footer {
+    padding: var(--spacing-medium);
+
+    border-top: var(--border-default);
+
+    text-align: center;
+}
+
+
+/* =========================================
+   6. NAVIGATION LAYOUT (from index.html, line id="main-navigation")
+   ========================================= */
+
+#main-navigation {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-medium);
+}
