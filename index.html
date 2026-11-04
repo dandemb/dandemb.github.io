@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- Loading the Fira Code font -->
+    <!-- Police, Loading the Fira Code font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
@@ -34,9 +34,23 @@
     <!-- Main container for our portfolio -->
     <div id="app">
 
-        <!-- We make the header and produce the content-->
+        <!-- Header -->
         <header id="site-header">
-            <p>Portfolio - Danylo Dembitskyi</p>
+
+            <!-- Logo -->
+            <div class="logo">
+                <span>Danylo</span><span class="accent">.dev</span>
+            </div>
+            
+            <!-- Navigation bar -->
+            <nav id="main-navigation" aria-label="Main navigation">
+                <button class="nav-button active" data-page="home">Home</button>
+                <button class="nav-button" data-page="about">About</button>
+                <button class="nav-button" data-page="projects">Projects</button>
+                <button class="nav-button" data-page="experience">Experience</button>
+                <button class="nav-button" data-page="contact">Contact</button>
+            </nav>
+
         </header>
 
         <main id="main-content">
