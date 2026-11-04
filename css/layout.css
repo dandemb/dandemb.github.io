@@ -45,6 +45,8 @@ body {
 
     /* Spaces around the application */
     padding: var(--spacing-large);
+    /* Not apply the changes for background animation (z-index = -1 in animations.css) */
+    isolation: isolate;
 }
 
 

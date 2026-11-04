@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Police, Loading the Fira Code font -->
@@ -33,6 +34,15 @@
 
     <!-- Main container for our portfolio -->
     <div id="app">
+        
+        <!-- Rain effect canvas -->
+        <!--the param aria-hidden=true  is just decorative, so it will be ignored by assistive technologies-->
+        <canvas
+         id="rain-canvas"
+         class="background-canvas"
+         aria-hidden="true" 
+        >
+        </canvas>
 
         <!-- Section 1 -->
         <!-- Header -->
