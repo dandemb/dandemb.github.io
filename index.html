@@ -1,66 +1,61 @@
+<!-- Common part to init -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="globals.css" />
-        <link rel="stylesheet" href="styleguide.css" />
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="porfolio-home">
-            <div class="home-foreground">
-                <header class="header">
-                    <div class="main-page">
-                        <div class="tab"><div class="hello">Main Page</div></div>
-                    </div>
-                    <div class="tab-wrapper">
-                        <div class="div-wrapper"><div class="text-wrapper">Works/Projects</div></div>
-                    </div>
-                    <div class="tab-wrapper">
-                        <div class="div-wrapper"><div class="text-wrapper">Bio</div></div>
-                    </div>
-                    <div class="tab-wrapper">
-                        <div class="div-wrapper"><div class="text-wrapper">Contact me</div></div>
-                    </div>
-                </header>
-                <div class="home-content">
-                    <img class="background-blurs" src="img/background-blurs.png" />
-                    <div class="about-container">
-                        <div class="introduction">
-                            <div class="div">Hi all. I am</div>
-                            <div class="name">
-                                <div class="name-2">Danylo Dembitskyi</div>
-                                <div class="job-title">&gt; Student</div>
-                            </div>
-                        </div>
-                        <div class="link-container">
-                            <div class="complete-game">Hello everyone</div>
-                            <div class="more-about">&nbsp;&nbsp;Welcome</div>
-                            <div class="more-about">&nbsp;&nbsp;&nbsp;&nbsp; To</div>
-                            <div class="more-about">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My</div>
-                            <div class="more-about-2">
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile Page!!!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-desktop">
-                    <div class="social-media">
-                        <div class="find-me-in"><div class="text-wrapper">find me in:</div></div>
-                        <div class="sociel-media-icons-wrapper"><div class="sociel-media-icons"></div></div>
-                        <div class="sociel-media-icons-wrapper"><div class="sociel-media-icons-2"></div></div>
-                    </div>
-                    <div class="menu-item">
-                        <div class="div-wrapper">
-                            <div class="frame">
-                                <div class="hello-2">@username</div>
-                                <img class="icon-git" src="img/icon-git.svg" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+
+
+<!-- Head part (Titre) -->
+<head>
+    <!-- Choose correct encoding-->
+    <meta charset="UTF-8">
+
+    <!-- Adapt to mobile version -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title displayed in the browser tab -->
+    <title>Danylo Dembitskyi | Portfolio</title>
+
+    <!-- Loading CSS files (style,layout , variables etc)-->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Loading the Fira Code font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- Body part (Content of the page) -->
+<body>
+
+    <!-- Main container for our portfolio -->
+    <div id="app">
+
+        <!-- We make the header and produce the content-->
+        <header id="site-header">
+            <p>Portfolio - Danylo Dembitskyi</p>
+        </header>
+
+        <main id="main-content">
+            <h1>Welcome to my portfolio</h1>
+            <p>My academic and professional journey.</p>
+        </main>
+
+        <footer id="site-footer">
+            <p>© 2026 Danylo Dembitskyi</p>
+        </footer>
+
+    </div>
+
+    <!-- Chargement du JavaScript -->
+    <script src="js/data.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/windows.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
 </html>
