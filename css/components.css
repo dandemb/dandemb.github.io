@@ -1,0 +1,112 @@
+/*used to control what individual elements look like,
+their appereance,their size, orientation and distributuion on the page.
+*/
+
+
+/* =========================================
+   1. GENERAL TEXT STYLES
+   ========================================= */
+
+/* Main headings */
+h1 {
+    color: var(--color-text);
+    font-size: var(--font-size-title);
+    font-weight: 600;
+    margin: 0 0 var(--spacing-medium) 0;
+}
+
+/* Secondary headings */
+h2 {
+    color: var(--color-accent);
+    font-size: var(--font-size-large);
+    font-weight: 500;
+    margin: 0 0 var(--spacing-medium) 0;
+}
+
+/* Paragraphs */
+p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-normal);
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   2. LOGO
+   ========================================= */
+
+.logo {
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+/* Orange part of the logo */
+.accent {
+    color: var(--color-accent);
+}
+
+
+/* =========================================
+   3. NAVIGATION BUTTONS
+   ========================================= */
+
+.nav-button {
+    /* Remove default browser button appearance */
+    background: transparent;
+    border: none;
+
+    /* Text appearance */
+    color: var(--color-text-secondary);
+    font-family: var(--font-main);
+    font-size: var(--font-size-normal);
+
+    /* Button dimensions */
+    padding: var(--spacing-small) var(--spacing-medium);
+
+    /* Mouse cursor */
+    cursor: pointer;
+
+    /* Smooth visual transitions */
+    transition: color var(--transition-fast),
+                background-color var(--transition-fast);
+}
+
+/* Mouse hovering over a navigation button */
+.nav-button:hover {
+    color: var(--color-accent);
+    background-color: var(--color-surface);
+}
+
+/* Currently selected navigation button */
+.nav-button.active {
+    color: var(--color-accent);
+}
+
+
+/* =========================================
+   4. PAGE CONTENT
+   ========================================= */
+
+/* Small introductory label */
+.section-label {
+    color: var(--color-accent);
+    font-size: var(--font-size-small);
+    letter-spacing: 2px;
+    margin-bottom: var(--spacing-medium);
+}
+
+/* Main page descriptions */
+.page > p {
+    max-width: 700px;
+}
+
+
+/* =========================================
+   5. FOOTER (we call it "site-footer" in index.html, not the class "footer" , but the element which we created)
+   ========================================= */
+
+#site-footer p {
+    font-size: var(--font-size-small);
+    margin: 0;
+}

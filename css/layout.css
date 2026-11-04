@@ -1,4 +1,11 @@
 
+/* Code for maintaining the layout of the website. 
+It uses the variables defined in variables.css to ensure consistency across the site. 
+The layout is structured to provide a responsive and user-friendly experience,
+with clear sections for the HEADER, MAIN CONTENT, and FOOTER. 
+The navigation bar is designed to be easily accessible. 
+Used for stucture and positionning of the elements*/
+
 /* =========================================
    1. GLOBAL RESET
    ========================================= */
